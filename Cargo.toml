@@ -1,6 +1,6 @@
 [package]
 name = "names"
-version = "0.14.1-dev"
+version = "0.14.1"
 authors = ["Fletcher Nichol <fnichol@nichol.ca>"]
 edition = "2018"
 license = "MIT"
@@ -24,7 +24,7 @@ default = ["application"]
 application = ["clap"]
 
 [dependencies]
-clap = { version = "3.1.5", optional = true, features = ["derive"] }
+clap = { version = "4.5.20", optional = true, features = ["derive"] }
 rand = "0.8.4"
 
 [dev-dependencies]

@@ -93,7 +93,7 @@ If you're ever confused, at least there's help:
 
 ```console
 > names --help
-names 0.11.0
+names 0.14.1
 Fletcher Nichol <fnichol@nichol.ca>
 
 A random name generator with results like "delirious-pail"
@@ -205,7 +205,7 @@ adding `names` to your dependencies in your project's `Cargo.toml` file:
 
 ```toml
 [dependencies]
-names = { version = "0.14.0", default-features = false }
+names = { version = "0.14.1", default-features = false }
 ```
 
 ### Examples
